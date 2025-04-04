@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    font-family:sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 100vh;
+    justify-content: center;
+    background: url("../../../Pictures/Saved Pictures/borana-little-girl-wallpaper-thumb.jpg") no-repeat ;
+    background-size: cover;
+    overflow: hidden;
+}
+h2{
+    text-transform: uppercase;
+    color: aqua;
+    letter-spacing: 4px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow:2px 2px 10px rgb(2, 25, 29) ;
+}
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+   
+}
+.clock div span{ 
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 0 10px white;
+    background-color: rgb(20, 33, 68);
+    opacity: .8;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px white;
+}
+.clock .text{
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 3rem;
+    background-color: rgb(10, 10, 99);
+}
+.clock #ampm{
+    bottom:0;
+    position:absolute;
+    width: 6rem;
+    height: 3rem;
+    font-size: 2rem;
+    
+}
