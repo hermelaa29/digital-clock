@@ -6,7 +6,7 @@ body{
     align-items: center; 
     height: 100vh;
     justify-content: center;
-    background: url("../../../Pictures/Saved Pictures/borana-little-girl-wallpaper-thumb.jpg") no-repeat ;
+    background: url("./borana-little-girl-wallpaper-thumb.jpg") no-repeat ;
     background-size: cover;
     overflow: hidden;
 }
